@@ -6,7 +6,7 @@
   {% if comment %}
   <h2>Ваш коментар було додано</h2>
     <p>
-        <a hrref="{{ post.get_absolute_url }}" class="text-decoration-none">Повернутися на сторінку посту</a>
+        <a href="{{ post.get_absolute_url }}" class="text-decoration-none">Повернутися на сторінку посту</a>
     </p>
 {% else %}
     {% include "blog/post/includes/comment_form.html" %}
